@@ -7,11 +7,15 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "run android": "react-native run-android",
+    "start emulator": "emulator -avd Nexus_5X_API_24"
   },
   "dependencies": {
+    "@react-native-community/async-storage": "^1.7.1",
     "react": "16.9.0",
-    "react-native": "0.61.5"
+    "react-native": "0.61.5",
+    "react-native-youtube": "^2.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.7.7",
